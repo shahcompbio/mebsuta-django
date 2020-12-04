@@ -8,7 +8,7 @@ KN REST API
 In root, create /db/ directory
 add db/db.sqlite3 to populate with existing data
 
-if not, create /db/ directory,
+No data: create /db/ directory,
 python3 manage.py migrate, python3 manage.py makemigrations
 
 
