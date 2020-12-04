@@ -1,0 +1,20 @@
+name: mebsuta_env
+
+channels:
+  - https://repo.continuum.io/pkgs/free
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.8.5
+  - pip
+  - gunicorn
+  - djangorestframework
+  - django-filter
+  - python-dotenv
+  - requests
+  - elasticsearch
+  - sqlite
+  - pip:
+      - django-filter
+      - python-dotenv
